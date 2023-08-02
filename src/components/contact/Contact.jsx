@@ -31,37 +31,20 @@ const Contact = () => {
       <div className="contact__container grid">
         <div className="contact__info">
           <h3 className="contact__title">Let's talk about everything!</h3>
-          <p className="contact__details">
-            Send me an email. 👋
-          </p>
+          <p className="contact__details">Send me an email. 👋</p>
         </div>
 
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="contact__form-group">
             <div className="contact__form-div">
-              <input
-                type="text"
-                name="name"
-                className="contact__form-input"
-                placeholder="Your full name"
-                required />
+              <input type="text" name="name" className="contact__form-input" placeholder="Your full name" required />
             </div>
             <div className="contact__form-div">
-              <input
-                type="email"
-                name="email"
-                className="contact__form-input"
-                placeholder="Your email"
-                required />
+              <input type="email" name="email" className="contact__form-input" placeholder="Your email" required />
             </div>
           </div>
           <div className="contact__form-div">
-            <input
-              type="text"
-              name="subject"
-              className="contact__form-input"
-              placeholder="Your subject"
-              required />
+            <input type="text" name="subject" className="contact__form-input" placeholder="Your subject" required />
           </div>
           <div className="contact__form-div contact__form-area">
             <textarea
@@ -71,7 +54,8 @@ const Contact = () => {
               rows="10"
               className="contact__form-input"
               placeholder="Write your message"
-              required />
+              required
+            />
           </div>
 
           <button type="submit" className="btn" disabled={submitting}>
@@ -81,7 +65,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Contact;

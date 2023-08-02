@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./home.css";
 import Me from "../../assets/avatar-1.svg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
-import Shapes from "./Shapes"
+import Shapes from "./Shapes";
+import CV from "../../assets/CV.pdf";
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
         <h1 className="home__name">Minh Nghia</h1>
         <span className="home__education">I'm a Front-End Developer</span>
         <HeaderSocials />
-        <a href="#contact" className="btn">Hire Me</a>
+        <a href={CV} className="btn" target="_blank">My Resume</a>
         <ScrollDown />
       </div>
       <Shapes />
