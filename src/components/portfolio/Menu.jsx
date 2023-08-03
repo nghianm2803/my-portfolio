@@ -1,4 +1,3 @@
-
 import Work1 from "../../assets/work-1.svg";
 import Work2 from "../../assets/work-2.svg";
 import Work3 from "../../assets/work-3.svg";
@@ -10,38 +9,44 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management Illustration",
-    category: "Design",
+    title: "Taskflow Project Management",
+    category: "Fullstack",
+    demo: "https://taskflow-doo.netlify.app/",
   },
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
-    category: "Art",
+    title: "Pokedex",
+    category: "Fullstack",
+    demo: "https://pokedex-doo.netlify.app/",
   },
   {
     id: 3,
     image: Work3,
-    title: "Delivery App Wireframe",
-    category: "Branding",
+    title: "Personal site",
+    category: "Frontend",
+    demo: "https://github.com/nghianm2803/Portfolio",
   },
   {
     id: 4,
     image: Work4,
-    title: "Onboarding Motivation",
-    category: "Design",
+    title: "CoderCars Management",
+    category: "Fullstack",
+    demo: "https://codercars-doo.netlify.app/",
   },
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup Design",
-    category: "Creative",
+    title: "Tarot Admin Dasboard",
+    category: "Frontend",
+    demo: "https://gitlab.com/nghianm2803/tarot-admin",
   },
   {
     id: 6,
     image: Work6,
-    title: "Game Store App Concept",
-    category: "Art",
+    title: "Tarot Website",
+    category: "Frontend",
+    demo: "https://gitlab.com/nghianm2803/tarot-frontend",
   },
 ];
 

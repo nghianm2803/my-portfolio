@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assets/avatar-2.svg";
+import Avatar2 from "../../assets/Avatar2.png";
 import CV from "../../assets/CV.pdf";
 import { NodeJsIcon, ReactIcon, TsIcon, HtmlIcon, CssIcon, JsIcon, MongoDbIcon, ExpressIcon } from "./Stack";
 
@@ -9,7 +9,7 @@ const About = () => {
     <section className="about container section" id="about">
       <h2 className="section__title">About Me</h2>
       <div className="about__container grid">
-        <img src={Image} alt="" className="about__img" />
+        <img src={Avatar2} alt="" className="about__img" />
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
@@ -43,10 +43,11 @@ const About = () => {
               <div className="skills__titles">
                 <h3 className="skills__name">Backend, Database</h3>
               </div>
-
               <div className="skills__stack grid">
-                <MongoDbIcon /> <ExpressIcon /> <NodeJsIcon />
+                <NodeJsIcon />
+                <ExpressIcon />
                 <JsIcon />
+                <MongoDbIcon />
               </div>
             </div>
           </div>

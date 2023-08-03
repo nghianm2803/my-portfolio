@@ -16,6 +16,9 @@ const HeaderSocials = () => {
       <a href="https://www.linkedin.com/in/nghianm2803/" className="home__social-link" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
       </a>
+      <a href="https://t.me/DooCharSiu" className="home__social-link" target="_blank">
+        <i class="fa-brands fa-telegram"></i>
+      </a>
     </div>
   );
 };

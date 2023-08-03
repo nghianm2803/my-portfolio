@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from "react";
 import "./portfolio.css";
 import Menu from "./Menu";
@@ -13,7 +14,7 @@ export const Portfolio = () => {
 
       <div className="work__container grid">
         {items.map((element) => {
-          const { id, image, title, category } = element;
+          const { id, image, title, category, demo } = element;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -23,7 +24,7 @@ export const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href={demo} className="work__button" target="_blank">
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>
