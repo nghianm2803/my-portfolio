@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import CV from "../../assets/CV.pdf";
+import { NodeJsIcon, ReactIcon, TsIcon, HtmlIcon, CssIcon, JsIcon, MongoDbIcon, ExpressIcon } from "./Stack";
 
 const About = () => {
   return (
@@ -24,29 +25,28 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
-                <span className="skills__number"> 90%</span>
-              </div>
-              <div className="skills__bar">
-                <span className="skills__percentage development"></span>
+                <h3 className="skills__name">Languages I speak</h3>
               </div>
             </div>
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Design</h3>
-                <span className="skills__number">50%</span>
+                <h3 className="skills__name">Frontend</h3>
               </div>
-              <div className="skills__bar">
-                <span className="skills__percentage design"></span>
+              <div className="skills__stack grid">
+                <ReactIcon />
+                <TsIcon />
+                <HtmlIcon />
+                <CssIcon />
               </div>
             </div>
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
-                <span className="skills__number">50%</span>
+                <h3 className="skills__name">Backend, Database</h3>
               </div>
-              <div className="skills__bar">
-                <span className="skills__percentage photography"></span>
+
+              <div className="skills__stack grid">
+                <MongoDbIcon /> <ExpressIcon /> <NodeJsIcon />
+                <JsIcon />
               </div>
             </div>
           </div>
