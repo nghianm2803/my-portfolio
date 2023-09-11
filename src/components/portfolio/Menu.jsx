@@ -9,8 +9,9 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Taskflow Project Management",
+    title: "Taskflow",
     category: "Fullstack",
+    stack: "MERN Stack",
     demo: "https://taskflow-doo.netlify.app/",
   },
   {
@@ -18,6 +19,7 @@ const Menu = [
     image: Work2,
     title: "Pokedex",
     category: "Fullstack",
+    stack: "MERN Stack",
     demo: "https://pokedex-doo.netlify.app/",
   },
   {
@@ -25,6 +27,7 @@ const Menu = [
     image: Work3,
     title: "Personal site",
     category: "Frontend",
+    stack: "ReactJS",
     demo: "https://github.com/nghianm2803/Portfolio",
   },
   {
@@ -32,6 +35,7 @@ const Menu = [
     image: Work4,
     title: "CoderCars Management",
     category: "Fullstack",
+    stack: "NodeJS, ExpressJs, MongoDB",
     demo: "https://codercars-doo.netlify.app/",
   },
   {
@@ -39,6 +43,7 @@ const Menu = [
     image: Work5,
     title: "Tarot Admin Dasboard",
     category: "Frontend",
+    stack: "ReactJS, Typescript, Redux",
     demo: "https://gitlab.com/nghianm2803/tarot-admin",
   },
   {
@@ -46,6 +51,7 @@ const Menu = [
     image: Work6,
     title: "Tarot Website",
     category: "Frontend",
+    stack: "ReactJS, Typescript, Redux",
     demo: "https://gitlab.com/nghianm2803/tarot-frontend",
   },
 ];

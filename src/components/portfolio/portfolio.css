@@ -52,6 +52,18 @@
   opacity: 0;
 }
 
+.work__stack{
+  color: #fff;
+  font-size: var(--h4-font-size);
+  margin: 0 0 0.98rem;
+  padding: 0 1.25rem;
+  position: absolute;
+  top: 5.75rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+}
+
 .work__button {
   color: #fff;
   position: absolute;
@@ -74,7 +86,8 @@
 }
 
 .work__card:hover .work__title,
-.work__card:hover .work__category {
+.work__card:hover .work__category,
+.work__card:hover .work__stack  {
   opacity: 1;
   transform: translateY(0);
 }

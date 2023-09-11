@@ -14,7 +14,7 @@ export const Portfolio = () => {
 
       <div className="work__container grid">
         {items.map((element) => {
-          const { id, image, title, category, demo } = element;
+          const { id, image, title, category, stack, demo } = element;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -24,6 +24,7 @@ export const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
+              <h4 className="work__stack">{stack}</h4>
               <a href={demo} className="work__button" target="_blank">
                 <i className="icon-link work__button-icon"></i>
               </a>
